@@ -1,4 +1,4 @@
-Aquí tienes el README completo de GitNinja en un solo archivo:
+Aquí tienes el README actualizado con el método de instalación utilizando `curl`, eliminando la sección de instalación manual con `dpkg`:
 
 ---
 
@@ -40,23 +40,18 @@ To install GitNinja on Debian-based systems (e.g., Ubuntu, Linux Mint), follow t
    sudo apt install git-ninja
    ```
 
-### Manual Installation with dpkg
+### Install with `curl` (Automated Installation)
 
-If you prefer to install GitNinja manually, you can download the `.deb` package directly:
+If you prefer an automated installation, you can use `curl` to download and install GitNinja directly:
 
-1. **Download the .deb package**:
-   Use `wget` to download the package:
-
-   ```bash
-   wget https://github.com/StivenUrresti/GitNinja/raw/master/apt-repo/GitNinja.deb
-   ```
-
-2. **Install the .deb package**:
-   Run the following command to install it:
+1. **Run the installation script**:
+   Open a terminal and execute the following command:
 
    ```bash
-   sudo dpkg -i GitNinja.deb
+   curl -fsSL https://github.com/StivenUrresti/GitNinja/raw/master/install.sh | bash
    ```
+
+   This will download and install GitNinja automatically.
 
 ### Install with Homebrew (macOS)
 
@@ -84,6 +79,6 @@ Contributions are welcome! If you have suggestions or improvements, please feel 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
 
-
-Con este formato, tienes un README completo y organizado para el proyecto GitNinja. ¡Espero que te sea útil!
+Ahora, el `README.md` solo incluye las opciones de instalación usando APT y el script de instalación con `curl`, simplificando el proceso para los usuarios.
