@@ -1,0 +1,11 @@
+Package: git-ninja
+Version: 1.0.0
+Architecture: all
+Maintainer: Stiven Urresti <stivenurresti@gmail.com>
+Installed-Size: 1024
+Depends: bash (>= 4.0), curl
+Section: utils
+Priority: optional
+Description: 
+  Git automation script with advanced features
+  Automates and simplifies Git tasks with interactive prompts and fun animations.
