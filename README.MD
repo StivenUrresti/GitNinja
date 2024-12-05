@@ -48,14 +48,14 @@ If you prefer to install GitNinja manually, you can download the `.deb` package 
    Use `wget` to download the package:
 
    ```bash
-   wget https://github.com/StivenUrresti/GitNinja/raw/master/apt-repo/git-ninja.deb
+   wget https://github.com/StivenUrresti/GitNinja/raw/master/apt-repo/GitNinja.deb
    ```
 
 2. **Install the .deb package**:
    Run the following command to install it:
 
    ```bash
-   sudo dpkg -i git-ninja.deb
+   sudo dpkg -i GitNinja.deb
    ```
 
 ### Install with Homebrew (macOS)
