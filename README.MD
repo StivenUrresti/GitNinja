@@ -9,36 +9,11 @@ GitNinja is a powerful tool designed to automate and streamline your Git tasks, 
 ## Features
 - **Automate Git tasks**: Simplifies commits, staging, and pushes.
 - **Fun animations**: Engages users with animations during task execution.
-- **Easy installation**: Installable via APT or Homebrew.
+- **Easy installation**: Installable via Curl or Homebrew.
 
 ## Installation
 
 GitNinja can be installed using two methods: **APT** for Debian-based systems and **Homebrew** for macOS. Choose the method that best suits your operating system.
-
-### Install with APT (Debian-based systems)
-
-To install GitNinja on Debian-based systems (e.g., Ubuntu, Linux Mint), follow these steps:
-
-1. **Add the GitNinja repository**:
-   Open a terminal and run the following command to add the GitNinja APT repository to your sources list:
-
-   ```bash
-   echo "deb [trusted=yes] https://github.com/StivenUrresti/GitNinja/raw/master/apt-repo/ ./" | sudo tee -a /etc/apt/sources.list.d/git-ninja.list
-   ```
-
-2. **Update package lists**:
-   Run the following command to update your package lists:
-
-   ```bash
-   sudo apt update
-   ```
-
-3. **Install GitNinja**:
-   Execute the following command to install GitNinja:
-
-   ```bash
-   sudo apt install git-ninja
-   ```
 
 ### Install with `curl` (Automated Installation)
 
